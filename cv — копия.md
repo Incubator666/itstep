@@ -1,9 +1,10 @@
 <img align="right" alt="GIF" src="./img/gif2.gif" width="100%" height="100" />
 <p align="center"> <img  src="./img/ya.png" />
-**Возраст 26 лет**
-**gmail: amadon232@gmail.com**
-**Телефон: +375293869496**</p>
-
+**Возраст 26 лет
+gmail: amadon232@gmail.com
+Телефон: +375293869496**
+</p>
+<p align="center">
 <img  src="./img/r01.png" width="100%"  height="20" />
 </p>
 
