@@ -4,6 +4,10 @@
 
 <p align="center" style="font-size:60pt;"> Денис Шакура </p>
 
+<p align="center" style="font-family: times, serif; font-size:60pt; font-style:italic">
+    Денис Шакура
+</p>
+
 <p align="center">
 <img  src="./img/r01.png" />
 </p>
