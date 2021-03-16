@@ -12,7 +12,7 @@
 <img  src="./img/r01.png" width="100%"  height="20" />
 </p>
 
-#Привет меня зовут Шакура Денис и я начал обучаються в группе Front-end, а это мой личный CV который я буду обновлять и дополнять по мере надобности.
+##Привет меня зовут Шакура Денис и я начал обучаються в группе Front-end, а это мой личный CV который я буду обновлять и дополнять по мере надобности.
 
 <p align="center">
 <img  src="./img/r01.png" width="100%"  height="20" />
@@ -26,6 +26,3 @@
 [<img align="left" alt="my github" width="100px" src="./img/git.png" />](https://github.com/Incubator666)[<img align="center" alt="my github" width="100px" src="./img/vk.png" />](https://vk.com/id29954596)[<img align="center" alt="my github" width="100px" src="./img/telega.png" />](https://t.me/amadon666)
 
 * * *
-Возраст 26 лет
-gmail: amadon232@gmail.com
-Телефон: +375293869496
