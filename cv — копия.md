@@ -2,13 +2,13 @@
 <p align="center"> <img  src="./img/ya.png" />
 </p>
 <p align="center">
-**Возраст 26 лет**
+Возраст 26 лет
 </p>
 <p align="center">
-**Gmail: amadon232@gmail.com**
+Gmail: amadon232@gmail.com
 </p>
 <p align="center">
-**Телефон: +375293869496**
+Телефон: +375293869496
 </p>
 <p align="center">
 <img  src="./img/r01.png" width="100%"  height="20" />
