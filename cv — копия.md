@@ -2,7 +2,7 @@
 <img  src="./img/r02.png" />
 </p>
 
-<p align="center" style="font-family: times, serif; font-size:30pt;"> Денис Шакура </p>
+<p align="center" style="font-family: times, serif; font-size:60pt;"> Денис Шакура </p>
 
 <p align="center">
 <img  src="./img/r01.png" />
