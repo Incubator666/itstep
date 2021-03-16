@@ -3,8 +3,10 @@
 </p>
 <p align="center">
 **Возраст 26 лет**
+</p>
 <p align="center">
 **Gmail: amadon232@gmail.com**
+</p>
 <p align="center">
 **Телефон: +375293869496**
 </p>
