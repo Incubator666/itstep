@@ -9,7 +9,7 @@ width="180" height="200" alt="Денис Шакура"></td>
 <td valign="top">**Возраст:   26 лет**
 **Адрес: г. Могилев ул. Турова д. 2а кв. 32**
 **Телефон: +375293869496 (Velcom)**
-[<img src="./img/git.png" width="80" heigt ="100" />](https://github.com/Incubator666) [<img src="./img/vk.png" widht="100" height="30" />](https://vl.com/id29954596)[<img src="./img/telega.png" width="100" height="30" />](https://t.me/amadon666)
+[<img src="./img/git.png" width="80" heigt ="100" />](https://github.com/Incubator666) [<img src="./img/vk.png" widht="100" height="30" />](https://vk.com/id29954596)[<img src="./img/telega.png" width="100" height="30" />](https://t.me/amadon666)
 </td>
 </tr>
 </table>
