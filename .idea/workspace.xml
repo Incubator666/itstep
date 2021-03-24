@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c51a140f-2bc4-48f3-a4f9-eedb872310a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG UltraGear 27GN800-B/6.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +80,7 @@
       <workItem from="1616541786059" duration="5108000" />
       <workItem from="1616555546091" duration="45000" />
       <workItem from="1616555622892" duration="25000" />
+      <workItem from="1616556155436" duration="920000" />
     </task>
     <servers />
   </component>
