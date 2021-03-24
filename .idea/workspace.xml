@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c51a140f-2bc4-48f3-a4f9-eedb872310a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_1/css/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/js/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Новая папка/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG 27GL850-B/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG 27GL850-B/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG 27GL850-B/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG 27GL850-B/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG 27GL850-B/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/images/LG 27GL850-B/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/js/cloud-carousel.1.0.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/js/cloud-carousel.1.0.5.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +92,7 @@
       <workItem from="1616288461296" duration="9383000" />
       <workItem from="1616297939438" duration="3288000" />
       <workItem from="1616538109391" duration="1949000" />
-      <workItem from="1616541786059" duration="1314000" />
+      <workItem from="1616541786059" duration="5108000" />
     </task>
     <servers />
   </component>
