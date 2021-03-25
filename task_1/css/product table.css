@@ -1,0 +1,51 @@
+#producttable { /* таблица товара */
+    border: 3px groove #313030;
+    width: 100%;
+    font-family: 'Comic Sans MS', Verdana, sans-serif
+}
+
+#productphotocolumn { /* Колонца с фото товара */
+    text-align: center;
+    border-top: 2px solid #313030;
+    border-right: 2px solid #313030;
+    border-left: 2px solid #313030;
+    border-bottom: 2px solid #313030;
+    width: 35%;
+}
+
+#shortdescriptioncolumn { /* Краткое описание товара */
+    font-size: 16pt;
+    width: 75%;
+    border: 1px solid #313030;
+    border-left: 0px;
+}
+#descriptiontable { /*Описание товара*/
+    border: 3px groove #313030;
+    width: 100%;
+    font-family: 'Comic Sans MS', Verdana, sans-serif
+}
+
+.descriptiontags{ /* Теги описания товара*/
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18pt;
+    color: black;
+    background-color: lightslategrey;
+    opacity: 0.8;
+    border: 1px solid #313030;
+}
+.description { /* Описание товара */
+    font-family: Comic Sans MS, Verdana, sans-serif;
+    font-size: 16pt;
+    border: 1px solid #313030;
+    border-right: 3px solid #313030;;
+    width: 35%;
+}
+
+.feature { /* Характеристики товара */
+    font-family: Comic Sans MS, Verdana, sans-serif;
+    font-size: 16pt;
+    border: 1px solid #313030;
+    border-left: 3px solid #313030;
+    width: 75%;
+}
