@@ -1,1 +1,1 @@
-# itstep бла бла бла
+https://Incubator666.github.io/itstep-cv/cv

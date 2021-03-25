@@ -1,0 +1,9 @@
+td {
+  vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+}
+hr {
+  border: none; /* Убираем границу */
+  background-color: #A9A9A9; /* Цвет линии */
+  color: #A9A9A9; /* Цвет линии для IE6-7 */
+  height: 4px; /* Толщина линии */
+}
