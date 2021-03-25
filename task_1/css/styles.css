@@ -7,3 +7,8 @@ hr {
   color: #A9A9A9; /* Цвет линии для IE6-7 */
   height: 4px; /* Толщина линии */
 }
+h1 {
+  Float: left;
+  color: #313030;
+}
+
