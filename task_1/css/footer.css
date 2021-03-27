@@ -1,7 +1,7 @@
 #footer {
-    position: fixed; /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 4px; /* Поля вокруг текста */
+    margin-bottom: 0px;
+    padding-top: 10px; /* Поля вокруг текста */
+    padding-bottom: 0px; /* Поля вокруг текста */
     background: #778899; /* Цвет фона */
     color: #fff; /* Цвет текста */
     width: 100%; /* Ширина слоя */
@@ -9,7 +9,7 @@
 }
 #footer a {
     color: Black;
-    text-decoration: none
+    text-decoration: none;
     background: #708090; /*добавляем фон к пункту меню*/
     border-left: 10px solid #778899; /*добавляем бордюр справа*/
 }
