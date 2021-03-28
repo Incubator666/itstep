@@ -57,8 +57,7 @@ h1 {
     border-right: 2px solid #313030;
     border-left: 2px solid #313030;
     border-bottom: 2px solid #313030;
-    width: 25%;
-    height: 250px;
+    width:200px;
 }
 
 .catalogdescriptioncolumn { /* Описание товара в каталоге */

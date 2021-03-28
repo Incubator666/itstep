@@ -22,16 +22,33 @@
         </li>
     </ul>
 </div>
-<fieldset>
-    <legend class="con3">Напишите нам</legend>
-    <label class="сon1">Имя<input class="con2" type="text" required placeholder="Ваше Имя"></label>
-    <label class="сon1">Фамилия<input class="con2" type="text" required placeholder="Ваше Фамилия"></label>
-    <label class="сon1">E-mail<input class="con2" type="email" required placeholder="Ваш E-mail"></label>
-    <label class="сon1">Телефон<input class="con2" type="tel" pattern="\(\d\d\) ?\d\d\d-\d\d-\d\d"
-                                      placeholder="(##) ###-##-##"/></label>
-    <label class="сon1">Суть обращения<input class="con2" type="email" required
-                                             placeholder="Не менее 25 символов"></label>
-</fieldset>
+<form>
+    <fieldset>
+        <legend class="con3">Напишите нам</legend>
+            <label class="сon1">Имя
+                <input class="con2" type="text" required placeholder="Ваше Имя">
+            </label>
+            <label class="сon1">Фамилия
+                <input class="con2" type="text" required placeholder="Ваше Фамилия">
+            </label>
+            <label class="сon1">E-mail
+                <input class="con2" type="email" required placeholder="Ваш E-mail">
+            </label>
+            <label class="сon1">Телефон
+                <input class="con2" type="tel" pattern="\(\d\d\) ?\d\d\d-\d\d-\d\d"
+                       placeholder="(12) 345-67-89"/>
+            </label>
+            <label class="сon1">Суть обращения
+                <input class="con2" type="text" minlength="25" required
+                       placeholder="Не менее 25 символов">
+            </label>
+        <div>
+            <input class="con4" type="submit" value="Отправить">
+            <input class="con4" type="reset" value="Очистить">
+        </div>
+    </fieldset>
+</form>
+
 <address id="contacts">
     <a>Автор:</a> Денис Шакура
     <a>Телефон:</a> +375293869496
@@ -45,9 +62,9 @@
 
 <div id="footer">
     &copy; Все права защищены
-    <a href="index.html">На главную
-        <a href="Contacts and map.html">Контакты</a>
-    </a>
+    <a href="index.html">На главную </a>
+    <a href="Contacts and map.html">Контакты</a>
+
 </div>
 </body>
 </html>
