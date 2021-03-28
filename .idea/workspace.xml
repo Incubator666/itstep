@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c51a140f-2bc4-48f3-a4f9-eedb872310a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_1/Contacts and map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/MSI GeForce RTX 3060 Ventus 3X 12G OC/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/MSI GeForce RTX 3060 Ventus 3X 12G OC/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/MSI GeForce RTX 3060 Ventus 3X 12G OC/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/MSI GeForce RTX 3060 Ventus 3X 12G OC/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/MSI GeForce RTX 3060 Ventus 3X 12G OC/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/monitorscatalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/videocardscatalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/css/contacts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/Contacts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/css/product table.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/product table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/Contacts and map.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Contacts and map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/catalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/monitorscatalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/monitorscatalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/videocardscatalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/videocardscatalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/Монитор LG UltraGear 27GN800-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Монитор LG UltraGear 27GN800-B.html" afterDir="false" />
     </list>
@@ -32,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
