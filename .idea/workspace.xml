@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c51a140f-2bc4-48f3-a4f9-eedb872310a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task_1/Catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/css/catalog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/monitors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1/images/videocards.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/Catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/Contacts and map.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Contacts and map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/css/catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/catalog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/css/product table.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/product table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/monitorscatalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/monitorscatalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/videocardscatalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/videocardscatalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_1/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Монитор LG 27GL850-B.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/Монитор LG UltraGear 27GN800-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/Монитор LG UltraGear 27GN800-B.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +103,7 @@
       <workItem from="1616556155436" duration="950000" />
       <workItem from="1616707619730" duration="8900000" />
       <workItem from="1617370463797" duration="6328000" />
+      <workItem from="1617394898628" duration="11740000" />
     </task>
     <servers />
   </component>

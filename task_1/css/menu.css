@@ -2,43 +2,62 @@
     list-style: none; /*убираем маркеры списка*/
     margin: 0; /*убираем отступы*/
     padding-left: 0; /*убираем отступы*/
-    margin-top:25px; /*делаем отступ сверху*/
-    background:#778899; /*добавляем фон всему меню*/
+    margin-top: 25px; /*делаем отступ сверху*/
+    background: #778899; /*добавляем фон всему меню*/
     height: 50px; /*задаем высоту*/
 }
+
 .menu a {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    background:#708090; /*добавляем фон к пункту меню*/
-    color:#fff; /*меняем цвет ссылок*/
-    padding:0 15px; /*добавляем отступ*/
+    background: #708090; /*добавляем фон к пункту меню*/
+    color: #fff; /*меняем цвет ссылок*/
+    padding: 0 15px; /*добавляем отступ*/
     font-family: arial, sans-serif; /*меняем шрифт*/
-    line-height:50px; /*ровняем меню по вертикали*/
+    line-height: 50px; /*ровняем меню по вертикали*/
     display: block;
     border-left: 1px solid #778899; /*добавляем бордюр справа*/
     -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
     -o-transition: all 0.3s 0.01s ease;
     -webkit-transition: all 0.3s 0.01s ease;
 }
+
 .menu a:hover {
-    background:#00FFFF;/*добавляем эффект при наведении*/
+    background: #00FFFF; /*добавляем эффект при наведении*/
 }
+
 .menu li {
-    float:right; /*Размещаем список горизонтально для реализации меню*/
-    position:relative; /*задаем позицию для позиционирования*/
+    float: right; /*Размещаем список горизонтально для реализации меню*/
+    position: relative; /*задаем позицию для позиционирования*/
 }
 
 /*Стили для скрытого выпадающего меню*/
 .menu li > ul {
-    position:absolute;
-    top:25px;
-    display:none;
+    position: absolute;
+    top: 25px;
+    display: none;
 }
 
 /*Делаем скрытую часть видимой*/
 .menu li:hover > ul {
-    display:block;
-    width:250px;  /*Задаем ширину выпадающего меню*/
+    display: block;
+    width: 250px; /*Задаем ширину выпадающего меню*/
 }
+
 .menu li:hover > ul > li {
-    float:none; /*Убираем горизонтальное позиционирование*/
+    float: none; /*Убираем горизонтальное позиционирование*/
 }
+
+#logo {
+    float: left;
+    padding-bottom: initial;
+}
+ .name {
+     margin-left: 0;
+     margin-top: 30px;
+     font-family: 'Rancho', cursive;
+     font-size: 35pt;
+}
+ .name:first-letter {
+     font-size: 200%;
+     color: slategrey;
+ }

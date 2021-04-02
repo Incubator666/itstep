@@ -1,3 +1,6 @@
+#product {
+    margin-top: 50px;
+}
 #producttable { /* таблица товара */
     border: 3px groove #313030;
     width: 100%;
@@ -73,4 +76,12 @@
     border: 1px solid #313030;
     border-left: 3px solid #313030;
     width: 75%;
+}
+.producttable img {
+    border: ridge lightslategrey;
+    box-shadow: 2px 2px 7px 2px rgba(130, 130, 130, .7), -2px -2px 7px 2px rgba(130, 130, 130, 1);
+}
+#producttable img {
+    border: ridge lightslategrey;
+    box-shadow: 2px 2px 7px 2px rgba(130, 130, 130, .7), -2px -2px 7px 2px rgba(130, 130, 130, 1);
 }
