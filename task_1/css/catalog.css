@@ -1,0 +1,14 @@
+.catalogtype {
+    display: inline-block;
+    width: 30%;
+}
+.catalogtable { /* таблица товара */
+    border: 3px groove #313030;
+    font-family: 'Comic Sans MS', Verdana, sans-serif
+}
+.catalogproduct {
+}
+
+.catalogproduct img {
+    text-align: center;
+}

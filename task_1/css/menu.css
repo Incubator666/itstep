@@ -10,7 +10,7 @@
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     background:#708090; /*добавляем фон к пункту меню*/
     color:#fff; /*меняем цвет ссылок*/
-    padding:0px 15px; /*добавляем отступ*/
+    padding:0 15px; /*добавляем отступ*/
     font-family: arial, sans-serif; /*меняем шрифт*/
     line-height:50px; /*ровняем меню по вертикали*/
     display: block;

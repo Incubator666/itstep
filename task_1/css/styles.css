@@ -1,9 +1,13 @@
+html, body {
+    height: 100%;
+}
 body {
     color: #313030;
     background: url(../images/bg.jpg);
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
-
 td {
     vertical-align: top; /* Выравнивание по верхнему краю ячеек */
 }
@@ -31,8 +35,11 @@ h1 {
 }
 
 .catalog {
+    display: block;
     margin-top: 50px;
     margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .catalogname {

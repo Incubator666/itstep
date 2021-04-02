@@ -1,4 +1,8 @@
+html, body {
+    height: 100%;
+}
 #footer {
+    flex: 1 0 auto;
     margin-bottom: 0px;
     padding-top: 10px; /* Поля вокруг текста */
     padding-bottom: 0px; /* Поля вокруг текста */
