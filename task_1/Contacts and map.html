@@ -5,61 +5,67 @@
     <title>Контакты</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link rel="stylesheet" type="text/css" href="css/contacts.css">
 </head>
 <body>
-<div id="wrap">
-<div class="menu">
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="Contacts%20and%20map.html">Контакты</a></li>
-        <li><a href="Catalog.html">Каталог</a>
-            <ul>
-                <li><a href="monitorscatalog.html">Мониторы</a></li>
-                <li><a href="videocardscatalog.html">Видеокарты</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-<form>
-    <fieldset>
-        <legend class="con3">Напишите нам</legend>
-            <label class="сon1">Имя
-                <input class="con2" type="text" required placeholder="Ваше Имя">
-            </label>
-            <label class="сon1">Фамилия
-                <input class="con2" type="text" required placeholder="Ваше Фамилия">
-            </label>
-            <label class="сon1">E-mail
-                <input class="con5" type="email" required placeholder="Ваш E-mail">
-            </label>
-            <label class="сon1">Телефон
-                <input class="con2" type="tel" pattern="\(\d\d\) ?\d\d\d-\d\d-\d\d"
-                       placeholder="(12) 345-67-89"/>
-            </label>
-            <label class="сon1">Суть обращения
-                <input class="con2" type="text" minlength="25" required
-                       placeholder="Не менее 25 символов">
-            </label>
-        <div>
-            <input class="con4" type="submit" value="Отправить">
-            <input class="con4" type="reset" value="Очистить">
+<div class="field">
+    <div class="header">
+        <!-- Меню сайта -->
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Логотип" height="85">
+            </a>
         </div>
-    </fieldset>
-</form>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Contacts%20and%20map.html">Контакты</a></li>
+                <li><a href="Catalog.html">Каталог</a>
+                    <ul>
+                        <li><a href="monitorscatalog.html">Мониторы</a></li>
+                        <li><a href="videocardscatalog.html">Видеокарты</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contacts">
+        <form>
+            <fieldset>
+                <legend class="con3">Напишите нам</legend>
+                <label class="сon1">Имя
+                    <input class="con2" type="text" required placeholder="Ваше Имя">
+                </label>
+                <label class="сon1">Фамилия
+                    <input class="con2" type="text" required placeholder="Ваше Фамилия">
+                </label>
+                <label class="сon1">E-mail
+                    <input class="con5" type="email" required placeholder="Ваш E-mail">
+                </label>
+                <label class="сon1">Телефон
+                    <input class="con2" type="tel" pattern="\(\d\d\) ?\d\d\d-\d\d-\d\d"
+                           placeholder="(12) 345-67-89"/>
+                </label>
+                <label class="сon1">Суть обращения
+                    <input class="con2" type="text" minlength="25" required
+                           placeholder="Не менее 25 символов">
+                </label>
+                <div>
+                    <input class="con4" type="submit" value="Отправить">
+                    <input class="con4" type="reset" value="Очистить">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <address id="contacts">
+        <a>Автор:</a> Денис Шакура
+        <a>Телефон:</a> +375293869496
+        <a>Адрес:</a> г. Могилев ул. Турова д.2а
+        <a>E-mail:</a> amadon232@gmail.com
 
-<address id="contacts">
-    <a>Автор:</a> Денис Шакура
-    <a>Телефон:</a> +375293869496
-    <a>Адрес:</a> г. Могилев ул. Турова д.2а
-    <a>E-mail:</a> amadon232@gmail.com
-
-</address>
-<iframe id="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.1749198429266!2d30.361467701649268!3d53.94640081578532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d04e5994da5461%3A0xad31ac7384913db8!2z0YPQuy4g0KLRg9GA0L7QstCwIDIg0JAsINCc0L7Qs9C40LvRkdCyIDIxMjAwOA!5e0!3m2!1sru!2sby!4v1616890152169!5m2!1sru!2sby"
-        allowfullscreen="" loading="lazy"></iframe>
+    </address>
+    <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.1749198429266!2d30.361467701649268!3d53.94640081578532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d04e5994da5461%3A0xad31ac7384913db8!2z0YPQuy4g0KLRg9GA0L7QstCwIDIg0JAsINCc0L7Qs9C40LvRkdCyIDIxMjAwOA!5e0!3m2!1sru!2sby!4v1616890152169!5m2!1sru!2sby"
+            allowfullscreen="" loading="lazy"></iframe>
 </div>
 <div class="footer">
     &copy; Все права защищены

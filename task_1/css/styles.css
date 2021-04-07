@@ -1,26 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     height: 100%;
 }
+
 body {
-    color: #313030;
-    background: url(../images/bg.jpg);
+    background: url(../images/background.jpg);
     background-attachment: fixed;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 8px);
-}
-td {
-    vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+    min-height: 100%;
 }
 
-hr {
-    border: none; /* Убираем границу */
-    background-color: #A9A9A9; /* Цвет линии */
-    color: #A9A9A9; /* Цвет линии для IE6-7 */
-    height: 4px; /* Толщина линии */
+.field {
+    background: url(../images/bg.jpg);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 7px 2px rgba(130, 130, 130, .7), -2px -2px 7px 2px rgba(130, 130, 130, 1);
+    overflow: hidden;
+    flex: 1 0 auto;
 }
 
-h1 {
+.header {
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#logo {
+    float: left;
+    padding-bottom: initial;
+}
+
+.menu ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top: 25px; /*делаем отступ сверху*/
+    background: #778899; /*добавляем фон всему меню*/
+    height: 50px; /*задаем высоту*/
+}
+
+.menu a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background: #708090; /*добавляем фон к пункту меню*/
+    color: #fff; /*меняем цвет ссылок*/
+    padding: 0 15px; /*добавляем отступ*/
+    font-family: arial, sans-serif; /*меняем шрифт*/
+    line-height: 50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-left: 1px solid #778899; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+.menu a:hover {
+    background: #00FFFF; /*добавляем эффект при наведении*/
+}
+
+.menu li {
+    float: right; /*Размещаем список горизонтально для реализации меню*/
+    position: relative; /*задаем позицию для позиционирования*/
+}
+
+/*Стили для скрытого выпадающего меню*/
+.menu li > ul {
+    position: absolute;
+    top: 25px;
+    display: none;
+}
+
+/*Делаем скрытую часть видимой*/
+.menu li:hover > ul {
+    display: block;
+    width: 250px; /*Задаем ширину выпадающего меню*/
+}
+
+.menu li:hover > ul > li {
+    float: none; /*Убираем горизонтальное позиционирование*/
+}
+
+.name {
+    font-family: 'Rancho', cursive;
+    font-size: 35pt;
+}
+
+.name:first-letter {
+    font-size: 200%;
+    color: slategrey;
+}
+
+.site__name {
     margin: 1em 0 0.5em 0;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
@@ -29,16 +107,214 @@ h1 {
     line-height: 30px;
 }
 
-.producttable { /* таблица товара в каталоге*/
-    border: 3px groove #313030;
+.сon1 {
+    color: #313030;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.con2 {
+    color: #313030;
+    width: 300px;
+    height: 30px;
+    margin: 1em 0 0.5em 0;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.con1, .con2 {
+    text-transform: capitalize;
+}
+
+.con3 {
+    color: #313030;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.con4 {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.con5 {
+    color: #313030;
+    width: 300px;
+    height: 30px;
+    margin: 1em 0 0.5em 0;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#map {
     width: 100%;
+    height: 367px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: inset 0 0 5px #708090;
+}
+
+#contacts {
+    color: #313030;
+    font-weight: normal;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    white-space: pre;
+}
+
+#contacts a {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #313030;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    white-space: pre;
+}
+
+
+.catalog {
+    margin: 80px auto;
+    display: block;
+    width: 100%;
+    height: 350px;
+    box-shadow: 2px 2px 7px 2px rgba(130, 130, 130, .7), -2px -2px 7px 2px rgba(130, 130, 130, 1);
+}
+
+.catalogname {
+    white-space: nowrap;
+    margin-left: 15px;
+    margin-top: -45px;
+    margin-right: 20%;
+    height: 45px;
+    background: #778899;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    box-shadow: inset 0 0 5px #708090;
+    font-size: 35px;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+.catalogname a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.producttable { /* таблица товара в каталоге*/
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-family: 'Comic Sans MS', Verdana, sans-serif;
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+
+}
+
+
+.catalogdescriptioncolumn { /* Описание товара в каталоге */
+    font-size: 18pt;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 350px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-right: 30px;
+    box-shadow: inset 0 0 5px #708090;
+}
+
+.catalogtags {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.catalogtype {
+    display: inline-block;
+    width: 20%;
+}
+
+.catalogtable { /* таблица товара */
+    border: 3px groove #313030;
     font-family: 'Comic Sans MS', Verdana, sans-serif
 }
-.catalogname {
+
+.catalogproduct img {
+    text-align: center;
+}
+
+.catalogtable img {
+    width: 250px;
+}
+
+
+#product {
+    margin-top: 50px;
+}
+
+#productphotocolumn { /* Колонца с фото товара */
+    text-align: center;
+    border-top: 2px solid #313030;
+    border-right: 2px solid #313030;
+    border-left: 2px solid #313030;
+    border-bottom: 2px solid #313030;
+    width: 35%;
+    height: 600px;
+}
+
+#shortdescriptioncolumn { /* Краткое описание товара */
+    font-size: 18pt;
+    font-weight: 400;
+    line-height: 50px;
+    width: 75%;
+}
+
+#descriptiontable { /*Описание товара*/
+    border: 3px groove #313030;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+}
+
+.descriptiontags { /* Теги описания товара*/
+    text-indent: 100px;
     font-weight: normal;
+    position: relative;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.6);
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 35px;
     background: #778899;
     border: 1px solid #fff;
     padding: 5px 15px;
@@ -46,18 +322,62 @@ h1 {
     border-radius: 0 10px 0 10px;
     box-shadow: inset 0 0 5px #708090;
     font-family: 'Muli', sans-serif;
-    text-decoration: none;
 }
 
-.catalogphotocolumn { /* Каталог с фото товара */
-    text-align: center;
-    border: 2px solid #313030;
-    width:200px;
+.descriptiontags1 { /* Теги описания товара*/
+    text-indent: 50px;
+    margin-right: 100px;
+    font-weight: normal;
+    position: relative;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    line-height: 25px;
+    background: #969191;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    box-shadow: inset 0 0 5px #857E7E;
+    font-family: 'Muli', sans-serif;
 }
 
-.catalogdescriptioncolumn { /* Описание товара в каталоге */
-    font-size: 18pt;
-    font-weight: 400;
-    line-height: 50px;
+.description { /* Описание товара */
+    font-family: Comic Sans MS, Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    border: 1px solid #313030;
+    border-right: 3px solid #313030;;
+    width: 35%;
+}
+
+.feature { /* Характеристики товара */
+    font-family: Georgia, serif;
+    font-size: 14pt;
+    font-weight: 800;
+    border: 1px solid #313030;
+    border-left: 3px solid #313030;
     width: 75%;
+}
+
+.producttable img {
+    border: ridge lightslategrey;
+    box-shadow: 2px 2px 7px 2px rgba(130, 130, 130, .7), -2px -2px 7px 2px rgba(130, 130, 130, 1);
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    position: sticky;
+    flex: 0;
+    padding-top: 5px; /* Поля вокруг текста */
+    padding-bottom: 5px; /* Поля вокруг текста */
+    background: #778899; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    border-left: 3px solid #778899; /*добавляем бордюр справа*/
+}
+
+.footer a {
+    color: Black;
+    text-decoration: none;
+    border-left: 10px solid #778899; /*добавляем бордюр справа*/
 }
