@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b52314bb-18e7-452b-bcff-f1981521bf55" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contacts and map.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contacts and map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/catalog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contacts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/product table.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitorscatalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/monitorscatalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videocardscatalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/videocardscatalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" beforeDir="false" afterPath="$PROJECT_DIR$/Видеокарта MSI GeForce RTX 3060 Ventus 3X 12G OC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Монитор LG 27GL850-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/Монитор LG 27GL850-B.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Монитор LG UltraGear 27GN800-B.html" beforeDir="false" afterPath="$PROJECT_DIR$/Монитор LG UltraGear 27GN800-B.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +95,7 @@
       <workItem from="1616599457604" duration="733000" />
       <workItem from="1616600621408" duration="10354000" />
       <workItem from="1616943694744" duration="5061000" />
-      <workItem from="1617787669662" duration="11203000" />
+      <workItem from="1617787669662" duration="13064000" />
     </task>
     <servers />
   </component>

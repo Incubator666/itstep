@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +30,10 @@ body {
 
 .header {
     flex: 1 0 auto;
-    width: 100%;
-    height: 100px;
+
     justify-content: space-between;
+    background: url(../images/header.jpg);
+    background-size: 100% 50px;
 }
 
 #logo {
@@ -44,23 +46,10 @@ body {
     margin: 0; /*убираем отступы*/
     padding-left: 0; /*убираем отступы*/
     margin-top: 25px; /*делаем отступ сверху*/
-    background: #778899; /*добавляем фон всему меню*/
+    /*background: #778899; /*добавляем фон всему меню*/
     height: 50px; /*задаем высоту*/
 }
 
-.menu a {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    background: #708090; /*добавляем фон к пункту меню*/
-    color: #fff; /*меняем цвет ссылок*/
-    padding: 0 15px; /*добавляем отступ*/
-    font-family: arial, sans-serif; /*меняем шрифт*/
-    line-height: 50px; /*ровняем меню по вертикали*/
-    display: block;
-    border-left: 1px solid #778899; /*добавляем бордюр справа*/
-    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
-    -o-transition: all 0.3s 0.01s ease;
-    -webkit-transition: all 0.3s 0.01s ease;
-}
 
 .menu a:hover {
     background: #00FFFF; /*добавляем эффект при наведении*/
@@ -69,6 +58,8 @@ body {
 .menu li {
     float: right; /*Размещаем список горизонтально для реализации меню*/
     position: relative; /*задаем позицию для позиционирования*/
+    /*background: #708090; /*добавляем фон к пункту меню*/
+    opacity: 1;
 }
 
 /*Стили для скрытого выпадающего меню*/
@@ -84,8 +75,24 @@ body {
     width: 250px; /*Задаем ширину выпадающего меню*/
 }
 
+.menu a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    /*background: #708090; /*добавляем фон к пункту меню*/
+    opacity: 0.9;
+    color: #fff; /*меняем цвет ссылок*/
+    padding: 0 15px; /*добавляем отступ*/
+    font-family: arial, sans-serif; /*меняем шрифт*/
+    line-height: 50px; /*ровняем меню по вертикали*/
+    display: block;
+    /*border-left: 1px solid #778899; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
 .menu li:hover > ul > li {
     float: none; /*Убираем горизонтальное позиционирование*/
+    background: #708090; /*добавляем фон к пункту меню*/
 }
 
 .name {
@@ -175,7 +182,7 @@ body {
 
 #map {
     width: 100%;
-    height: 367px;
+    height: 374px;
     border-radius: 50px 50px 50px 50px;
     box-shadow: inset 0 0 5px #708090;
 }
@@ -226,6 +233,7 @@ body {
     font-family: 'Libre Baskerville', serif;
     text-decoration: none;
 }
+
 .catalogname a {
     text-decoration: none;
     color: white;
