@@ -30,7 +30,6 @@ body {
 
 .header {
     flex: 1 0 auto;
-
     justify-content: space-between;
     background: url(../images/header.jpg);
     background-size: 100% 50px;
