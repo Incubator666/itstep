@@ -12,14 +12,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
 }
 
 .body {
     flex: 1 0 auto;
     /*min-height: 100%;
     margin-bottom: -195px;*/
-    border: 3px solid greenyellow;
 }
 
 .header {
@@ -52,6 +50,9 @@ body {
 
 .menu a:hover {
     background: dimgray; /*добавляем эффект при наведении*/
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: dotted;
 }
 
 .menu li {
@@ -82,36 +83,36 @@ body {
     height: 70px;
     justify-content: space-around;
     text-align: center;
-}
-
-.login__box {
-    margin-right: 5px;
-    display: inline-block;
-    color: white;
-}
-
-.login__word {
-    margin-left: 5px;
-    display: inline-block;
-    color: white;
-}
-
-.login a {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16px;
     line-height: 70px;
     font-weight: 700;
     color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
+.login__box {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
+.login:hover{
+    background: dimgray;
+}
+.login__box:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: dotted;
+}
 .bg {
     min-height: 100%;
     flex: 1 0 auto;
     background: url(../images/bg.png);
     background-repeat: no-repeat;
+    /*background-color: coral;*/
     background-color: #070707;
     background-size: 100%;
-    border: 3px solid goldenrod;
 }
 
 .main {
@@ -122,8 +123,6 @@ body {
     width: 940px;
     overflow: hidden;
     color: white;
-
-    border: 3px solid yellow;
 }
 
 .index__logo {
@@ -132,7 +131,6 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1 0 auto;
-    border: 3px solid goldenrod;
 }
 
 .shape {
@@ -140,12 +138,10 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 940px;
-    border: 3px solid blueviolet;
 }
 
 .shape1 {
     width: 30%;
-    border: 3px solid coral;
 }
 
 .shape_tag {
@@ -179,7 +175,6 @@ body {
     height: 20px;
     transform: rotate(-45deg);
     background-color: white;
-    border: 3px solid blueviolet;
 }
 
 .shape2 p {
@@ -222,21 +217,36 @@ body {
     color: #000000;
 }
 .body_content_left_text_1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+
+}
+.body_content_left_text_1_1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
     margin-bottom: 16px;
 }
-.body_content_left_text_1 p{
+.body_content_left_text_2 {
+
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
     color: #000000;
 }
-.body_content_left_text_2 p{
+.body_content_left_text_2_1 {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
     color: #000000;
+    margin-bottom: 16px;
 }
 .body_content_button {
     display: flex;
@@ -246,8 +256,15 @@ body {
     height: 44px;
     background-color: black;
     margin-top: 30px;
+    text-transform: uppercase;
 }
-.body_content_button p {
+.body_content_button:hover {
+    background: dimgray;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.body_content_button {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -295,7 +312,6 @@ body {
     width: 940px;
     height: 195px;
     color: white;
-    border: 3px solid navajowhite;
 }
 
 .footer1 {
@@ -304,7 +320,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 310px;
-    border: 3px solid coral;
 }
 
 .footer1 p {
@@ -320,6 +335,9 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
+.text__decoration:hover{
+    text-decoration: none;
+}
 
 .footer2 {
     position: relative;
@@ -329,7 +347,6 @@ body {
     text-decoration: none;
     margin: 0 auto;
     z-index: 2;
-    border: 3px solid coral;
 }
 
 .footer2 p {
@@ -350,11 +367,12 @@ body {
     display: inline-flex;
     width: 43px;
     height: 43px;
-    border: 3px solid blueviolet;
     background-color: #000000;
     cursor: pointer;
 }
-
+.footerhref:hover{
+    background: dimgray;
+}
 .footer3 {
     position: relative;
     display: block;
@@ -362,7 +380,6 @@ body {
     align-items: center;
     text-decoration: none;
     width: 310px;
-    border: 3px solid coral;
 }
 
 .footer3_1 {
@@ -389,11 +406,14 @@ body {
     display: inline-flex;
     width: 140px;
     height: 43px;
-    border: 3px solid blueviolet;
     background-color: #000000;
     cursor: pointer;
 }
-
+.footerhref2:hover{
+    background: dimgray;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 .footer3 div a {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 14px;
